@@ -24,6 +24,10 @@ namespace ExceptionTest
             {
                 Console.WriteLine("Formato Incorreto");
             }
+            finally
+            {
+                Console.WriteLine("Obrigado por desperdicar tempo a ler isto.");
+            }
         }
     }
 }
